@@ -14,8 +14,8 @@
 #include <OpenImageIO/sysutil.h>
 #include <OpenImageIO/typedesc.h>
 
+#include <Iex/IexThrowErrnoExc.h>
 #include <ImathBox.h>
-#include <OpenEXR/IexThrowErrnoExc.h>
 #include <OpenEXR/ImfChannelList.h>
 #include <OpenEXR/ImfIO.h>
 #include <OpenEXR/ImfRgbaFile.h>

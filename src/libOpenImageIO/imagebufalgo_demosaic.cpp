@@ -5,6 +5,7 @@
 /// \file
 /// Implementation of ImageBufAlgo demosaic algorithms
 
+#include <OpenImageIO/half.h>
 #include <OpenImageIO/imagebuf.h>
 #include <OpenImageIO/imagebufalgo.h>
 #include <OpenImageIO/imagebufalgo_util.h>

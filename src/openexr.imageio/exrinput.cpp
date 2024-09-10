@@ -29,8 +29,8 @@
 OIIO_PRAGMA_VISIBILITY_PUSH
 OIIO_PRAGMA_WARNING_PUSH
 OIIO_GCC_PRAGMA(GCC diagnostic ignored "-Wunused-parameter")
-#include <OpenEXR/IexBaseExc.h>
-#include <OpenEXR/IexThrowErrnoExc.h>
+#include <Iex/IexBaseExc.h>
+#include <Iex/IexThrowErrnoExc.h>
 #include <OpenEXR/ImfBoxAttribute.h>
 #include <OpenEXR/ImfChromaticitiesAttribute.h>
 #include <OpenEXR/ImfCompressionAttribute.h>

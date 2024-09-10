@@ -15,7 +15,7 @@
 #include <OpenImageIO/Imath.h>
 #include <OpenImageIO/platform.h>
 
-#include <OpenEXR/IlmThreadPool.h>
+#include <IlmThread/IlmThreadPool.h>
 #include <OpenEXR/ImfChannelList.h>
 #include <OpenEXR/ImfEnvmap.h>
 #include <OpenEXR/ImfOutputFile.h>
@@ -31,7 +31,7 @@
 OIIO_PRAGMA_VISIBILITY_PUSH
 OIIO_PRAGMA_WARNING_PUSH
 OIIO_GCC_PRAGMA(GCC diagnostic ignored "-Wunused-parameter")
-#include <OpenEXR/IexBaseExc.h>
+#include <Iex/IexBaseExc.h>
 #include <OpenEXR/ImfBoxAttribute.h>
 #include <OpenEXR/ImfCRgbaFile.h>  // JUST to get symbols to figure out version!
 #include <OpenEXR/ImfChromaticitiesAttribute.h>
